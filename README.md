@@ -4,4 +4,4 @@
 
 ### Thread 
 
-[]:StandardOfJava/StandardOfJava/src/com/tistory/devshock/chapter13/ThreadExample1.java
+[thread](StandardOfJava/StandardOfJava/src/com/tistory/devshock/chapter13/ThreadExample1.java)
