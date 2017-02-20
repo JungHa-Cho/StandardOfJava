@@ -1,5 +1,14 @@
 package com.tistory.devshock.chapter13;
 
+/**
+ * <pre>
+ * 개인 프로젝트, Agent 실습 (After JDK 1.7)
+ * 1. 클래스명 : ThreadExample1.java
+ * 2. 작성일 : 2017. 2. 20.
+ * 3. 작성자 : 조정하
+ * 4. 설명 :  Thread와 Run의 차이점
+ * </pre>
+ */
 public class ThreadExample1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
