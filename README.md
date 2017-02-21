@@ -1,4 +1,6 @@
 # StandardOfJava
+- Java를 공부하며 실습 자료를 올리는 공간입니다.
+
 ## Java 일반
 - [CallByValue](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/common/Counter.java) - Call By Value
 - [CallByReference](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/common/Counter2.java) - Call By Reference
