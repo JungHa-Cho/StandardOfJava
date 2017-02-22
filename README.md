@@ -6,7 +6,7 @@
 - [CallByValue](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/common/Counter.java) - Call By Value
 - [CallByReference](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/common/Counter2.java) - Call By Reference
 
-## Chapter 12
+## Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
 
 ## Chapter 13. Thread
