@@ -16,6 +16,18 @@
 - 추상화, 클래스간의 공통점을 찾아내서 공통의 조상을 만드는 작업
 - 일반 메소드를 상속받아 @Override하는 것과 abstract로 @Override하는 것은 차이가 없다. 하지만 abstract로 선언해두면, 자손 클래스에서 abstract 메소드를 강제할 수 있다.
 
+## Chapter 7. Interface
+- 추상클래스를 부분적으로 완성된 미완성 설계도라 한다면, 인터페이스는 구현된 것은 아무 것도 없고 밑그림만 그려져 있는 기본 설계도라 할 수 있다.
+- 그 자체로 사용되기 보다 다른 클래스를 작성하는데 도움 줄 목적으로 작성 된다.
+- 일반적인 클래스와 달리 인터페이스의 멤버들은 다음과 같은 제약사항이 있다.
+- - 모든 멤버변수는 public static final 이어야 하며, 이를 생략할 수 있다.
+- - 모든 메서드는 public abstract 이어야 하며 이를 생략할 수 있다.
+- - 단, static 메서드와 디폴트 메서드는 예외 JDK 1.8 부터 변경
+- 인터페이스의 이름에는 주로 Eatable같이 ~를 할수 있다는 의미의 able를 주로 쓴다. 이 인터페이스를 구현하면 먹을 수 있다. 처럼 인터페이스를 상속한 클래스 John은 먹을 수 있다. 처럼 먹는 메소드를 제공한다는 것을 강조하기 위함이다.
+- 오버라이딩 할 때는 조상의 메서드보다 넓은 범위의 접근 제어자를 지정해야 한다. 인터페이스 내 메소드는 public abstract를 생략하고 있기 때문이다.
+
+### 인터페이스를 이용한 다중 상속
+
 ## Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
 

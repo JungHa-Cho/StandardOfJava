@@ -1,4 +1,4 @@
-package com.tistory.devshock.chapter7;
+package com.tistory.devshock.chapter7.Abstract;
 
 abstract class Unit {
     int x, y;

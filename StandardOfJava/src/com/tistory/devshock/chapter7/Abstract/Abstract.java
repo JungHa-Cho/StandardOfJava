@@ -1,4 +1,4 @@
-package com.tistory.devshock.chapter7;
+package com.tistory.devshock.chapter7.Abstract;
 
 class Marine {      // 보병
     int x, y;       // 현재 위치
