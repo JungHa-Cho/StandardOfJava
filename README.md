@@ -30,7 +30,7 @@
 - 모든 메서드는 public abstract 이어야 하며 이를 생략할 수 있다.
 - 단, static 메서드와 디폴트 메서드는 예외 JDK 1.8 부터 변경
 
-- ### 인터페이스를 이용한 다중 상속
+- ### 인터페이스를 이용한 다중 상속 [예제] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Interface/MultiExtendsTVCR.java)
 - 두 조상으로부터 같은 이름의 메소드를 상속 받을떄 멤버 변수 이름이 같거나 메소드 이름이 같으면 자손 클래스는 어느 조상의 멤버를 상속 받아야 될지 모른다.
 - 다중 상속의 장점보다 이러한 단점이 더 크다고 판단한 Java는 다중상속을 허용하지 않는다.
 - 하지만, 자바도 인터페이스를 이용해 다중 상속이 가능하다. 라는 사실 때문에 인터페이스는 다중 상속을 위한 것이라고 오해를 사는 것 일뿐 자바에서 인터페이스로 다중상속을 구현하는 경우는 거의 없다.
