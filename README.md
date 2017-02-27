@@ -35,6 +35,9 @@
 - 다중 상속의 장점보다 이러한 단점이 더 크다고 판단한 Java는 다중상속을 허용하지 않는다.
 - 하지만, 자바도 인터페이스를 이용해 다중 상속이 가능하다. 라는 사실 때문에 인터페이스는 다중 상속을 위한 것이라고 오해를 사는 것 일뿐 자바에서 인터페이스로 다중상속을 구현하는 경우는 거의 없다.
 
+- ### 인터페이스를 이용한 다형성
+- 리턴타입이 인터페이스라는 것은 메서드가 해당 인터페이스를 구현한 클래스의 인스턴스를 반환한다는 것을 의미한다.
+
 ### Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
 
