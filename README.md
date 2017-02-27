@@ -24,21 +24,21 @@
 - 인터페이스의 이름에는 주로 Eatable같이 ~를 할수 있다는 의미의 able를 주로 쓴다. 이 인터페이스를 구현하면 먹을 수 있다. 처럼 인터페이스를 상속한 클래스 John은 먹을 수 있다. 처럼 먹는 메소드를 제공한다는 것을 강조하기 위함이다.
 - 오버라이딩 할 때는 조상의 메서드보다 넓은 범위의 접근 제어자를 지정해야 한다. 인터페이스 내 메소드는 public abstract를 생략하고 있기 때문이다.
 
-## 인터페이스의 특징, 일반적인 클래스와 달리 인터페이스의 멤버들은 다음과 같은 제약사항이 있다.
+### 인터페이스의 특징, 일반적인 클래스와 달리 인터페이스의 멤버들은 다음과 같은 제약사항이 있다.
 - 인터페이스는 static 상수만 정의할 수 있다.
 - 모든 멤버변수는 public static final 이어야 하며, 이를 생략할 수 있다.
 - 모든 메서드는 public abstract 이어야 하며 이를 생략할 수 있다.
 - 단, static 메서드와 디폴트 메서드는 예외 JDK 1.8 부터 변경
 
-## 인터페이스를 이용한 다중 상속
+### 인터페이스를 이용한 다중 상속
 - 두 조상으로부터 같은 이름의 메소드를 상속 받을떄 멤버 변수 이름이 같거나 메소드 이름이 같으면 자손 클래스는 어느 조상의 멤버를 상속 받아야 될지 모른다.
 - 다중 상속의 장점보다 이러한 단점이 더 크다고 판단한 Java는 다중상속을 허용하지 않는다.
 - 하지만, 자바도 인터페이스를 이용해 다중 상속이 가능하다. 라는 사실 때문에 인터페이스는 다중 상속을 위한 것이라고 오해를 사는 것 일뿐 자바에서 인터페이스로 다중상속을 구현하는 경우는 거의 없다.
 
-## Chapter 12. Enum
+### Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
 
-## Chapter 13. Thread
+### Chapter 13. Thread
 - [쓰레드 구현](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter13/ThreadExample1.java) - 쓰레드를 구현하는 두가지 방법 p.724
 - [StampedLock](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter13/ThreadExample2.java) - JDK 1.8부터 지원하는 StampedLock
 - [ReentrantLock](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter13/ThreadWaitExample1.java) - ReentrantLock과 Condition으로 구분하는 Pool
