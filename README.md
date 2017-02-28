@@ -38,6 +38,12 @@
 - ### 인터페이스를 이용한 다형성
 - 리턴타입이 인터페이스라는 것은 메서드가 해당 인터페이스를 구현한 클래스의 인스턴스를 반환한다는 것을 의미한다.
 
+- ### 인터페이스의 장점
+- 개발시간을 단축시킬 수 있다. 메소드의 선언부만 알면 양쪽에서 필요한 기능을 개발할 수 있기 때문이다. (의존성 분리)
+- 표준화가 가능하다. 프로그램의 기본 틀을 인터페이스로 제공하면 대형 프로젝트에서도 표준화가 가능하다.
+- 서로 관계없는 클래스드들에게 관계를 맺어 줄 수 있다.
+- 독립적인 프로그래밍이 가능하다. 하나의 클래스 변경이 다른 클래스에 영향을 끼치지 않도록 할 수 있다.
+
 ### Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
 
