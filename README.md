@@ -19,6 +19,7 @@
 ## Chapter 7. Interface
 
 - ### 인터페이스
+
 - 추상클래스를 부분적으로 완성된 미완성 설계도라 한다면, 인터페이스는 구현된 것은 아무 것도 없고 밑그림만 그려져 있는 기본 설계도라 할 수 있다.
 - 그 자체로 사용되기 보다 다른 클래스를 작성하는데 도움 줄 목적으로 작성 된다.
 - 인터페이스의 이름에는 주로 Eatable같이 ~를 할수 있다는 의미의 able를 주로 쓴다. 이 인터페이스를 구현하면 먹을 수 있다. 처럼 인터페이스를 상속한 클래스 John은 먹을 수 있다. 처럼 먹는 메소드를 제공한다는 것을 강조하기 위함이다.
@@ -43,6 +44,10 @@
 - 표준화가 가능하다. 프로그램의 기본 틀을 인터페이스로 제공하면 대형 프로젝트에서도 표준화가 가능하다.
 - 서로 관계없는 클래스드들에게 관계를 맺어 줄 수 있다.
 - 독립적인 프로그래밍이 가능하다. 하나의 클래스 변경이 다른 클래스에 영향을 끼치지 않도록 할 수 있다.
+
+### Chapter 9. java.lang 패키지와 유용한 클래스
+
+- ## 
 
 ### Chapter 12. Enum
 - [AbstractEnum](https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter12/AbstractEnum.java) - Abstract Enum
