@@ -10,7 +10,7 @@
 ## Chapter 7. Abstract
 - 추상, 낱낱의 구체적 표상이나 개념에서 공통된 성질을 뽑아 이를 일반적인 개념으로 파악하는 정신 작용
 - 추상화와 구체화의 차이점
-- [Implements] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Implements.java) - 추상 메소드의 구현
+- [Implements] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Abstract/Implements.java) - 추상 메소드의 구현
 - 구체화, 상속을 통해 클래스를 구현, 확장하는 작업
 - [Abstract] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Abstract.java) - 추상화 작업을 통한 부모 클래스 작성 ( [원형 클래스] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Abstract.java), [추상화 작업 후] (https://github.com/JungHa-Cho/StandardOfJava/blob/master/StandardOfJava/src/com/tistory/devshock/chapter7/Abstract.java) )
 - 추상화, 클래스간의 공통점을 찾아내서 공통의 조상을 만드는 작업
