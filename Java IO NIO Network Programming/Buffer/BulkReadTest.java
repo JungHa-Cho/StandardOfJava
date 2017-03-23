@@ -9,7 +9,7 @@ public class BulkReadTest {
         buf.mark();
         buf.put((byte) 5).put((byte) 6).put((byte) 7).put((byte) 8).put((byte) 9);
         buf.reset();
-
+        
         byte[] b = new byte[15];
 
         // 버퍼에서 얼마나 쓸 수 있는지를 계산한다.
